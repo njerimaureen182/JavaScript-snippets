@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Click here!</button>
+
+<button onclick="someOtherFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var x= new Date();
+function someOtherFunction(){
+document.getElementById("demo").innerHTML=x;
+}
+
+var z=["Samsung", "HTC", "Sony", "LG", "Asus"];
+document.getElementById("demo").innerHTML=z;
+
+function myFunction(){
+document.getElementById("demo").innerHTML=
+z[0] + "<br>" + z[1] + "<br>" + z[2] + "<br>" + z[3] + "<br>" + z[4];
+}
+</script>
+
+</body>
+</html>

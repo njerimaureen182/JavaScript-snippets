@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<p id="demo"></p>
+
+<script>
+	
+	var superHeroes={
+		"squadName":"super hero squad",
+		"homeTown":"metro city",
+		"formed":2016,
+		"secretBase":"super tower",
+		"active":true,
+		"members":[
+		{
+			"name":"Molecule man",
+			"age":29,
+			"secretIdentity":"Dan Jukes",
+			"powers":[
+			
+				"Radiation resistance",
+				"Turning tiny",
+				"Radiation blast"
+			]
+
+		},
+		{
+			"name":"Madame uppercut",
+			"age":39,
+			"secretIdentity":"James Wilson",
+			"powers":[
+				"Million tonne punch",
+				"Damage resistance",
+				"Superhuman flexes"
+			]
+
+		},
+		{
+			"name":"External flame",
+			"age":10000,
+			"secretIdentity":"unknown",
+			"powers":[
+				"immortality",
+				"Heat immunity",
+				"Inferno",
+				"Teleportation",
+				"Interdimensional travel"
+			]
+		}
+			
+			]
+	};
+
+	document.getElementById("demo").innerHTML=superHeroes.members[0].age+", "+ superHeroes.members[1].powers;
+</script>
+
+</body>
+</html>

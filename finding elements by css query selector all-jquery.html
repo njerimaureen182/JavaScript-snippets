@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p class="intro">Holland</p>
+<p class="intro">Poland</p>
+<p class="intro">Denmark</p>
+
+<p id="demo"></p>
+
+<script>
+$(document).ready(function() {
+    var b=$("p.intro");
+    $("demo").text("I am in" + b[1].innerHTML);    
+});
+</script>
+
+</body>
+</html>

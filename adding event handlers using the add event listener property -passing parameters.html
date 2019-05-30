@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button id="myBtn">Try it</button>
+<p id="demo"></p>
+<script>
+var x= 5;
+var y= 7;
+
+document.getElementById("myBtn").addEventListener("click",function(){
+    myFunction(x,y);
+});
+
+function myFunction(a,b){
+    var result= a*b;
+    document.getElementById("demo").innerHTML=result;
+}
+</script>
+
+</body>
+</html>
